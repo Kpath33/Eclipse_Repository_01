@@ -1,0 +1,9 @@
+
+<suite name="Suite">
+    <test name="Test">
+        <classes>
+            <!-- Replace this with your test class name -->
+            <class name="testCases.TC001_AccountRegistrationTest"/>
+        </classes>
+    </test>
+</suite>

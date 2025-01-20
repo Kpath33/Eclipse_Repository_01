@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.sql.Driver"/>
+    <fullyQualifiedTypeName name="java.sql.DriverAction"/>
+    <fullyQualifiedTypeName name="org.checkerframework.checker.index.qual.EnsuresLTLengthOf.List"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.awt.Window"/>
+    <fullyQualifiedTypeName name="org.checkerframework.checker.units.qual.min"/>
+    <fullyQualifiedTypeName name="javax.xml.xpath.XPath"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By.ByXPath"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.JavascriptExecutor"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.TakesScreenshot"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="org.apache.commons.io.FileUtils"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.net.http.WebSocket"/>
+    <fullyQualifiedTypeName name="java.awt.Robot"/>
+    <fullyQualifiedTypeName name="java.awt.Toolkit"/>
+    <fullyQualifiedTypeName name="java.awt.Desktop.Action"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.interactions.Actions"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.testng.Assert"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+    <fullyQualifiedTypeName name="com.microsoft.schemas.office.visio.x2012.main.CellType"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
+    <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.CellType"/>
+    <fullyQualifiedTypeName name="testBase.BaseClass"/>
+    <fullyQualifiedTypeName name="pageObjects.AccountRegistrationPage"/>
+    <fullyQualifiedTypeName name="pageObjects.HomePage"/>
+    <fullyQualifiedTypeName name="pageObjects.BasePage"/>
+    <fullyQualifiedTypeName name="net.bytebuddy.asm.Advice.This"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="java.time.Duration"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.Parameters"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By.ByLinkText"/>
+</qualifiedTypeNameHistroy>

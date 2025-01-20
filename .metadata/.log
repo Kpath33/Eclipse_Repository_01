@@ -1,0 +1,1621 @@
+!SESSION 2025-01-16 13:29:35.299 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+This is a continuation of log file E:\eclipse-workspace\.metadata\.bak_0.log
+Created Time: 2025-01-16 13:47:50.240
+
+!ENTRY org.eclipse.ui.ide 4 4 2025-01-16 13:47:50.240
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:184)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:121)
+	at org.eclipse.swt.graphics.TextLayout.<init>(TextLayout.java:302)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:1097)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:984)
+	at org.eclipse.swt.custom.StyledText$9.getTextAttributes(StyledText.java:6639)
+	at org.eclipse.swt.accessibility.Accessible.get_attributes(Accessible.java:4337)
+	at org.eclipse.swt.accessibility.Accessible$5.method4(Accessible.java:349)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback4(COMObject.java:102)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3785)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui.ide 4 4 2025-01-16 13:47:50.241
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:184)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:121)
+	at org.eclipse.swt.graphics.TextLayout.<init>(TextLayout.java:302)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:1097)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:984)
+	at org.eclipse.swt.custom.StyledText$9.getTextAttributes(StyledText.java:6639)
+	at org.eclipse.swt.accessibility.Accessible.get_attributes(Accessible.java:4337)
+	at org.eclipse.swt.accessibility.Accessible$5.method4(Accessible.java:349)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback4(COMObject.java:102)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3785)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui.ide 4 4 2025-01-16 13:47:50.242
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:184)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:121)
+	at org.eclipse.swt.graphics.TextLayout.<init>(TextLayout.java:302)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:1097)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:984)
+	at org.eclipse.swt.custom.StyledText$9.getTextAttributes(StyledText.java:6639)
+	at org.eclipse.swt.accessibility.Accessible.get_attributes(Accessible.java:4337)
+	at org.eclipse.swt.accessibility.Accessible$5.method4(Accessible.java:349)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback4(COMObject.java:102)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3785)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui.ide 4 4 2025-01-16 13:47:50.244
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:184)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:121)
+	at org.eclipse.swt.graphics.TextLayout.<init>(TextLayout.java:302)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:1097)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:984)
+	at org.eclipse.swt.custom.StyledText$9.getTextAttributes(StyledText.java:6639)
+	at org.eclipse.swt.accessibility.Accessible.get_attributes(Accessible.java:4337)
+	at org.eclipse.swt.accessibility.Accessible$5.method4(Accessible.java:349)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback4(COMObject.java:102)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3785)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui.ide 4 4 2025-01-16 13:47:50.244
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:184)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:121)
+	at org.eclipse.swt.graphics.TextLayout.<init>(TextLayout.java:302)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:1097)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:984)
+	at org.eclipse.swt.custom.StyledText$9.getTextAttributes(StyledText.java:6639)
+	at org.eclipse.swt.accessibility.Accessible.get_attributes(Accessible.java:4337)
+	at org.eclipse.swt.accessibility.Accessible$5.method4(Accessible.java:349)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback4(COMObject.java:102)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3785)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui.ide 4 4 2025-01-16 13:47:50.245
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:184)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:121)
+	at org.eclipse.swt.graphics.TextLayout.<init>(TextLayout.java:302)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:1097)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:984)
+	at org.eclipse.swt.custom.StyledText$9.getTextAttributes(StyledText.java:6639)
+	at org.eclipse.swt.accessibility.Accessible.get_attributes(Accessible.java:4337)
+	at org.eclipse.swt.accessibility.Accessible$5.method4(Accessible.java:349)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback4(COMObject.java:102)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3785)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui.ide 4 4 2025-01-16 13:47:50.246
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:184)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:121)
+	at org.eclipse.swt.graphics.TextLayout.<init>(TextLayout.java:302)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:1097)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:984)
+	at org.eclipse.swt.custom.StyledText$9.getTextAttributes(StyledText.java:6639)
+	at org.eclipse.swt.accessibility.Accessible.get_attributes(Accessible.java:4337)
+	at org.eclipse.swt.accessibility.Accessible$5.method4(Accessible.java:349)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback4(COMObject.java:102)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3785)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui.ide 4 4 2025-01-16 13:47:50.247
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:184)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:121)
+	at org.eclipse.swt.graphics.TextLayout.<init>(TextLayout.java:302)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:1097)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:984)
+	at org.eclipse.swt.custom.StyledText$9.getTextAttributes(StyledText.java:6639)
+	at org.eclipse.swt.accessibility.Accessible.get_attributes(Accessible.java:4337)
+	at org.eclipse.swt.accessibility.Accessible$5.method4(Accessible.java:349)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback4(COMObject.java:102)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3785)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui.ide 4 4 2025-01-16 13:47:50.249
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:184)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:121)
+	at org.eclipse.swt.graphics.TextLayout.<init>(TextLayout.java:302)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:1097)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:984)
+	at org.eclipse.swt.custom.StyledText$9.getTextAttributes(StyledText.java:6639)
+	at org.eclipse.swt.accessibility.Accessible.get_attributes(Accessible.java:4337)
+	at org.eclipse.swt.accessibility.Accessible$5.method4(Accessible.java:349)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback4(COMObject.java:102)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3785)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui.ide 4 4 2025-01-16 13:47:50.250
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:184)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:121)
+	at org.eclipse.swt.graphics.TextLayout.<init>(TextLayout.java:302)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:1097)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:984)
+	at org.eclipse.swt.custom.StyledText$9.getTextAttributes(StyledText.java:6639)
+	at org.eclipse.swt.accessibility.Accessible.get_attributes(Accessible.java:4337)
+	at org.eclipse.swt.accessibility.Accessible$5.method4(Accessible.java:349)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback4(COMObject.java:102)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3785)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui.ide 4 4 2025-01-16 13:47:50.251
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:184)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:121)
+	at org.eclipse.swt.graphics.TextLayout.<init>(TextLayout.java:302)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:1097)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:984)
+	at org.eclipse.swt.custom.StyledText$9.getTextAttributes(StyledText.java:6639)
+	at org.eclipse.swt.accessibility.Accessible.get_attributes(Accessible.java:4337)
+	at org.eclipse.swt.accessibility.Accessible$5.method4(Accessible.java:349)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback4(COMObject.java:102)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3785)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui.ide 4 4 2025-01-16 13:47:50.252
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:184)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:121)
+	at org.eclipse.swt.graphics.TextLayout.<init>(TextLayout.java:302)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:1097)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:984)
+	at org.eclipse.swt.custom.StyledText$9.getTextAttributes(StyledText.java:6639)
+	at org.eclipse.swt.accessibility.Accessible.get_attributes(Accessible.java:4337)
+	at org.eclipse.swt.accessibility.Accessible$5.method4(Accessible.java:349)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback4(COMObject.java:102)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3785)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui.ide 4 4 2025-01-16 13:47:50.254
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:184)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:121)
+	at org.eclipse.swt.graphics.TextLayout.<init>(TextLayout.java:302)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:1097)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:984)
+	at org.eclipse.swt.custom.StyledText$9.getTextAttributes(StyledText.java:6639)
+	at org.eclipse.swt.accessibility.Accessible.get_attributes(Accessible.java:4337)
+	at org.eclipse.swt.accessibility.Accessible$5.method4(Accessible.java:349)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback4(COMObject.java:102)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3785)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui.ide 4 4 2025-01-16 13:47:50.255
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:184)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:121)
+	at org.eclipse.swt.graphics.TextLayout.<init>(TextLayout.java:302)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:1097)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:984)
+	at org.eclipse.swt.custom.StyledText$9.getTextAttributes(StyledText.java:6639)
+	at org.eclipse.swt.accessibility.Accessible.get_attributes(Accessible.java:4337)
+	at org.eclipse.swt.accessibility.Accessible$5.method4(Accessible.java:349)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback4(COMObject.java:102)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3785)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui.ide 4 4 2025-01-16 13:47:50.257
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:184)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:121)
+	at org.eclipse.swt.graphics.TextLayout.<init>(TextLayout.java:302)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:1097)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:984)
+	at org.eclipse.swt.custom.StyledText$9.getTextAttributes(StyledText.java:6639)
+	at org.eclipse.swt.accessibility.Accessible.get_attributes(Accessible.java:4337)
+	at org.eclipse.swt.accessibility.Accessible$5.method4(Accessible.java:349)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback4(COMObject.java:102)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3785)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui.ide 4 4 2025-01-16 13:47:50.258
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:184)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:121)
+	at org.eclipse.swt.graphics.TextLayout.<init>(TextLayout.java:302)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:1097)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:984)
+	at org.eclipse.swt.custom.StyledText$9.getTextAttributes(StyledText.java:6639)
+	at org.eclipse.swt.accessibility.Accessible.get_attributes(Accessible.java:4337)
+	at org.eclipse.swt.accessibility.Accessible$5.method4(Accessible.java:349)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback4(COMObject.java:102)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3785)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui.ide 4 4 2025-01-16 13:47:50.259
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:184)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:121)
+	at org.eclipse.swt.graphics.TextLayout.<init>(TextLayout.java:302)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:1097)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:984)
+	at org.eclipse.swt.custom.StyledText$9.getTextAttributes(StyledText.java:6639)
+	at org.eclipse.swt.accessibility.Accessible.get_attributes(Accessible.java:4337)
+	at org.eclipse.swt.accessibility.Accessible$5.method4(Accessible.java:349)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback4(COMObject.java:102)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3785)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui.ide 4 4 2025-01-16 13:47:50.260
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:184)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:121)
+	at org.eclipse.swt.graphics.TextLayout.<init>(TextLayout.java:302)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:1097)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:984)
+	at org.eclipse.swt.custom.StyledText$9.getTextAttributes(StyledText.java:6639)
+	at org.eclipse.swt.accessibility.Accessible.get_attributes(Accessible.java:4337)
+	at org.eclipse.swt.accessibility.Accessible$5.method4(Accessible.java:349)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback4(COMObject.java:102)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3785)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui.ide 4 4 2025-01-16 13:47:50.261
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:184)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:121)
+	at org.eclipse.swt.graphics.TextLayout.<init>(TextLayout.java:302)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:1097)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:984)
+	at org.eclipse.swt.custom.StyledText$9.getTextAttributes(StyledText.java:6639)
+	at org.eclipse.swt.accessibility.Accessible.get_attributes(Accessible.java:4337)
+	at org.eclipse.swt.accessibility.Accessible$5.method4(Accessible.java:349)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback4(COMObject.java:102)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3785)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-16 13:50:52.500
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-16 13:50:52.509
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-16 13:51:23.799
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-16 13:51:23.806
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-16 13:53:10.518
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-16 13:53:10.527
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2025-01-16 13:53:24.908
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\karti\eclipse\java-2024-09\eclipse\configuration\org.eclipse.osgi\826\0\.cp\lib\testng-remote.jar E:\eclipse-workspace\Projectrtry01\target\test-classes E:\eclipse-workspace\Projectrtry01\target\classes C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar C:\Users\karti\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar C:\Users\karti\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar C:\Users\karti\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar C:\Users\karti\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar C:\Users\karti\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar C:\Users\karti\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\karti\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar C:\Users\karti\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar C:\Users\karti\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar C:\Users\karti\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar C:\Users\karti\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar C:\Users\karti\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar C:\Users\karti\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar C:\Users\karti\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar C:\Users\karti\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar C:\Users\karti\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar C:\Users\karti\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar C:\Users\karti\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar C:\Users\karti\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar C:\Users\karti\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar C:\Users\karti\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar C:\Users\karti\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar C:\Users\karti\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar C:\Users\karti\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar C:\Users\karti\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.23.1\log4j-slf4j-impl-2.23.1.jar C:\Users\karti\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\karti\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar C:\Users\karti\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar C:\Users\karti\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar C:\Users\karti\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\karti\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar C:\Users\karti\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\karti\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\karti\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\karti\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\karti\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\karti\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58855 -protocol json -d E:\eclipse-workspace\Projectrtry01\test-output C:\Users\karti\AppData\Local\Temp\testng-eclipse--1392273483\testng-customsuite.xml
+java -ea -classpath C:\Users\karti\eclipse\java-2024-09\eclipse\configuration\org.eclipse.osgi\826\0\.cp\lib\testng-remote.jar:E:\eclipse-workspace\Projectrtry01\target\test-classes:E:\eclipse-workspace\Projectrtry01\target\classes:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar:C:\Users\karti\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar:C:\Users\karti\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar:C:\Users\karti\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar:C:\Users\karti\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar:C:\Users\karti\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:C:\Users\karti\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\karti\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar:C:\Users\karti\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar:C:\Users\karti\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar:C:\Users\karti\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar:C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar:C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar:C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar:C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar:C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar:C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar:C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar:C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar:C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar:C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar:C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar:C:\Users\karti\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar:C:\Users\karti\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar:C:\Users\karti\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar:C:\Users\karti\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar:C:\Users\karti\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar:C:\Users\karti\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar:C:\Users\karti\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar:C:\Users\karti\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar:C:\Users\karti\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar:C:\Users\karti\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar:C:\Users\karti\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar:C:\Users\karti\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar:C:\Users\karti\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar:C:\Users\karti\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar:C:\Users\karti\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.23.1\log4j-slf4j-impl-2.23.1.jar:C:\Users\karti\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\karti\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar:C:\Users\karti\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar:C:\Users\karti\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar:C:\Users\karti\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\karti\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar:C:\Users\karti\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\karti\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\karti\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\karti\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\karti\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\karti\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar org.testng.remote.RemoteTestNG -serport 58855 -protocol json -d E:\eclipse-workspace\Projectrtry01\test-output C:\Users\karti\AppData\Local\Temp\testng-eclipse--1392273483\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-16 14:04:04.123
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-16 14:04:04.153
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-16 14:04:12.214
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-16 14:04:12.220
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-16 14:10:14.436
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-16 14:10:14.443
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-16 14:10:31.894
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-16 14:10:31.901
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-16 14:16:07.238
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-16 14:16:07.247
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-16 14:17:17.792
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-16 14:17:17.806
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-01-16 14:19:19.819
+!MESSAGE Could not get hover region due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:2004)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2139)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:152)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:225)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-01-16 14:19:20.874
+!MESSAGE Could not get hover information due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:2004)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2139)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfo(LSPTextHover.java:73)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverInfo2(CompositeTextHover.java:60)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-01-16 14:19:44.004
+!MESSAGE Could not get hover region due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:2004)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2139)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:152)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:225)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-16 14:19:53.827
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-16 14:19:53.835
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2025-01-16 14:20:03.142
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\karti\eclipse\java-2024-09\eclipse\configuration\org.eclipse.osgi\826\0\.cp\lib\testng-remote.jar E:\eclipse-workspace\Projectrtry01\target\test-classes E:\eclipse-workspace\Projectrtry01\target\classes C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar C:\Users\karti\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar C:\Users\karti\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar C:\Users\karti\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar C:\Users\karti\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar C:\Users\karti\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar C:\Users\karti\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\karti\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar C:\Users\karti\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar C:\Users\karti\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar C:\Users\karti\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar C:\Users\karti\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar C:\Users\karti\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar C:\Users\karti\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar C:\Users\karti\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar C:\Users\karti\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar C:\Users\karti\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar C:\Users\karti\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar C:\Users\karti\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar C:\Users\karti\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar C:\Users\karti\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar C:\Users\karti\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar C:\Users\karti\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar C:\Users\karti\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar C:\Users\karti\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar C:\Users\karti\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.23.1\log4j-slf4j-impl-2.23.1.jar C:\Users\karti\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\karti\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar C:\Users\karti\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar C:\Users\karti\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar C:\Users\karti\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\karti\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar C:\Users\karti\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\karti\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\karti\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\karti\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\karti\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\karti\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56843 -protocol json -d E:\eclipse-workspace\Projectrtry01\test-output C:\Users\karti\AppData\Local\Temp\testng-eclipse-1485165541\testng-customsuite.xml
+java -ea -classpath C:\Users\karti\eclipse\java-2024-09\eclipse\configuration\org.eclipse.osgi\826\0\.cp\lib\testng-remote.jar:E:\eclipse-workspace\Projectrtry01\target\test-classes:E:\eclipse-workspace\Projectrtry01\target\classes:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar:C:\Users\karti\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar:C:\Users\karti\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar:C:\Users\karti\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar:C:\Users\karti\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar:C:\Users\karti\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:C:\Users\karti\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\karti\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar:C:\Users\karti\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar:C:\Users\karti\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar:C:\Users\karti\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar:C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar:C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar:C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar:C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar:C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar:C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar:C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar:C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar:C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar:C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar:C:\Users\karti\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar:C:\Users\karti\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar:C:\Users\karti\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar:C:\Users\karti\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar:C:\Users\karti\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar:C:\Users\karti\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar:C:\Users\karti\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar:C:\Users\karti\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar:C:\Users\karti\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar:C:\Users\karti\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar:C:\Users\karti\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar:C:\Users\karti\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar:C:\Users\karti\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar:C:\Users\karti\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar:C:\Users\karti\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar:C:\Users\karti\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar:C:\Users\karti\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.23.1\log4j-slf4j-impl-2.23.1.jar:C:\Users\karti\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\karti\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar:C:\Users\karti\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar:C:\Users\karti\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar:C:\Users\karti\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\karti\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar:C:\Users\karti\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\karti\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\karti\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\karti\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\karti\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\karti\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar org.testng.remote.RemoteTestNG -serport 56843 -protocol json -d E:\eclipse-workspace\Projectrtry01\test-output C:\Users\karti\AppData\Local\Temp\testng-eclipse-1485165541\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-16 14:20:24.572
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-16 14:20:24.584
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2025-01-16 14:20:46.767
+!MESSAGE Timeout while checking Copilot status
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2025-01-16 15:41:16.241
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-16 15:42:07.813
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-16 15:42:07.827
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-01-16 15:43:03.975
+!MESSAGE [C4E] Internal server stopped: Server@187150f7{STOPPED}[10.0.20,sto=0]
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-01-16 15:43:03.978
+!MESSAGE [C4E] Internal server stopped: true
+!SESSION 2025-01-20 12:57:50.777 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-20 12:59:57.721
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-20 13:00:10.491
+!MESSAGE Logback config file: E:\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:00:42.013
+!MESSAGE [C4E] Copilot API proxy: native mode
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-01-20 13:00:44.183
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\karti'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:00:45.686
+!MESSAGE Starting Copilot4Eclipse
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-01-20 13:00:47.189
+!MESSAGE [Chat} EdgeDataDir: E:\eclipse-workspace\.metadata\.plugins\com.genuitec.copilot4eclipse\edgedata
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2025-01-20 13:00:50.704
+!MESSAGE Init failed - Copilot LS is not active
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2964)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:00:52.726
+!MESSAGE Starting Copilot4Eclipse
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2025-01-20 13:00:57.736
+!MESSAGE Init failed - Copilot LS is not active
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2964)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:00:59.755
+!MESSAGE Starting Copilot4Eclipse
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2025-01-20 13:01:04.758
+!MESSAGE Init failed - Copilot LS is not active
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2964)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:01:06.767
+!MESSAGE Starting Copilot4Eclipse
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2025-01-20 13:01:11.772
+!MESSAGE Init failed - Copilot LS is not active
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2964)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:01:13.788
+!MESSAGE Starting Copilot4Eclipse
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2025-01-20 13:01:18.794
+!MESSAGE Init failed - Copilot LS is not active
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2964)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:01:20.803
+!MESSAGE Starting Copilot4Eclipse
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2025-01-20 13:01:25.867
+!MESSAGE Init failed - Copilot LS is not active
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2964)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:01:27.874
+!MESSAGE Starting Copilot4Eclipse
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2025-01-20 13:01:32.879
+!MESSAGE Init failed - Copilot LS is not active
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2964)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:01:34.995
+!MESSAGE Starting Copilot4Eclipse
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2025-01-20 13:01:39.999
+!MESSAGE Init failed - Copilot LS is not active
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2964)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:01:42.055
+!MESSAGE Starting Copilot4Eclipse
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:01:42.647
+!MESSAGE [C4E] Preconditions Checks(status: ok, results: [Result(
+type: chat_enabled,
+ status: ok,
+ details: [
+
+])])
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:01:42.736
+!MESSAGE [C4E] Preconditions Checks(status: ok, results: [Result(
+type: chat_enabled,
+ status: ok,
+ details: [
+
+])])
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:01:42.788
+!MESSAGE [C4E] Preconditions Checks(status: ok, results: [Result(
+type: chat_enabled,
+ status: ok,
+ details: [
+
+])])
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:01:42.923
+!MESSAGE [C4E] Preconditions Checks(status: ok, results: [Result(
+type: chat_enabled,
+ status: ok,
+ details: [
+
+])])
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:01:46.819
+!MESSAGE [C4E] Preconditions Checks(status: ok, results: [Result(
+type: chat_enabled,
+ status: ok,
+ details: [
+
+])])
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2025-01-20 13:01:47.238
+!MESSAGE Init failed - Copilot LS is not active
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2964)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:01:47.315
+!MESSAGE [C4E] Preconditions Checks(status: ok, results: [Result(
+type: chat_enabled,
+ status: ok,
+ details: [
+
+])])
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:01:49.245
+!MESSAGE Starting Copilot4Eclipse
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:01:53.040
+!MESSAGE [C4E] Preconditions Checks(status: ok, results: [Result(
+type: chat_enabled,
+ status: ok,
+ details: [
+
+])])
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:01:53.215
+!MESSAGE [C4E] Preconditions Checks(status: ok, results: [Result(
+type: chat_enabled,
+ status: ok,
+ details: [
+
+])])
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2025-01-20 13:01:54.249
+!MESSAGE Init failed - Copilot LS is not active
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2964)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:01:54.656
+!MESSAGE [C4E] Preconditions Checks(status: ok, results: [Result(
+type: chat_enabled,
+ status: ok,
+ details: [
+
+])])
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:02:01.981
+!MESSAGE [C4E] Preconditions Checks(status: ok, results: [Result(
+type: chat_enabled,
+ status: ok,
+ details: [
+
+])])
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:02:14.256
+!MESSAGE Starting Copilot4Eclipse
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2025-01-20 13:02:18.792
+!MESSAGE Timeout while checking Copilot status
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:02:19.695
+!MESSAGE [C4E] Preconditions Checks(status: ok, results: [Result(
+type: chat_enabled,
+ status: ok,
+ details: [
+
+])])
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-01-20 13:02:25.344
+!MESSAGE [C4E] Conversation persistence: E:/eclipse-workspace/.metadata/.plugins/com.genuitec.copilot4eclipse/chatdata
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-01-20 13:02:26.380
+!MESSAGE [C4E] Internal server started: true uri: http://localhost:54965/chat
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-01-20 13:02:30.632
+!MESSAGE [C4E] Workspace labels: java,maven,javascript
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-20 13:03:15.206
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-20 13:03:15.266
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-20 13:03:33.457
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-20 13:03:33.474
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-20 13:05:21.936
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-20 13:05:21.949
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.ui 4 0 2025-01-20 13:06:13.793
+!MESSAGE Error parsing commits from push result
+!STACK 0
+org.eclipse.jgit.errors.MissingObjectException: Missing unknown c629dbd1700462d2c94423c531c274d51a43a7bd
+	at org.eclipse.jgit.internal.storage.file.WindowCursor.open(WindowCursor.java:136)
+	at org.eclipse.jgit.lib.ObjectReader.open(ObjectReader.java:216)
+	at org.eclipse.jgit.revwalk.RevWalk.parseAny(RevWalk.java:1127)
+	at org.eclipse.jgit.revwalk.RevWalk.parseCommit(RevWalk.java:1038)
+	at org.eclipse.egit.ui.internal.push.RefUpdateElement.getCommits(RefUpdateElement.java:177)
+	at org.eclipse.egit.ui.internal.push.RefUpdateElement.getChildren(RefUpdateElement.java:198)
+	at org.eclipse.egit.ui.internal.push.RefUpdateElement.getStyledText(RefUpdateElement.java:274)
+	at org.eclipse.egit.ui.internal.push.PushResultTable$3.getStyledText(PushResultTable.java:133)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getStyledText(DelegatingStyledCellLabelProvider.java:209)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.update(DelegatingStyledCellLabelProvider.java:109)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:149)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1000)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:158)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1073)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:426)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:894)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:872)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:611)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:819)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalInitializeTree(AbstractTreeViewer.java:1648)
+	at org.eclipse.jface.viewers.TreeViewer.internalInitializeTree(TreeViewer.java:782)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.lambda$1(AbstractTreeViewer.java:1633)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1392)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:367)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1353)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.inputChanged(AbstractTreeViewer.java:1627)
+	at org.eclipse.jface.viewers.ContentViewer.setInput(ContentViewer.java:282)
+	at org.eclipse.jface.viewers.StructuredViewer.setInput(StructuredViewer.java:1636)
+	at org.eclipse.egit.ui.internal.push.PushResultTable.setData(PushResultTable.java:360)
+	at org.eclipse.egit.ui.internal.push.PushResultDialog.createDialogArea(PushResultDialog.java:106)
+	at org.eclipse.jface.dialogs.TitleAreaDialog.createContents(TitleAreaDialog.java:166)
+	at org.eclipse.egit.ui.internal.components.TitleAndImageDialog.createContents(TitleAndImageDialog.java:54)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1092)
+	at org.eclipse.jface.window.Window.open(Window.java:788)
+	at org.eclipse.egit.ui.internal.push.ShowPushResultAction.showResult(ShowPushResultAction.java:73)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJobResultAction.run(RepositoryJobResultAction.java:77)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob$2.runInUIThread(RepositoryJob.java:174)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-01-20 13:08:50.275
+!MESSAGE [C4E] Internal server stopped: Server@41ef3a8a{STOPPED}[10.0.20,sto=0]
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-01-20 13:08:50.277
+!MESSAGE [C4E] Internal server stopped: true
+!SESSION 2025-01-20 13:08:52.797 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/E:/eclipse-workspace/
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-20 13:09:02.212
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-20 13:09:08.292
+!MESSAGE Logback config file: E:\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:09:18.658
+!MESSAGE [C4E] Copilot API proxy: native mode
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-01-20 13:09:19.304
+!MESSAGE [Chat} EdgeDataDir: E:\eclipse-workspace\.metadata\.plugins\com.genuitec.copilot4eclipse\edgedata
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-01-20 13:09:20.802
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\karti'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:09:21.378
+!MESSAGE Starting Copilot4Eclipse
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2025-01-20 13:09:26.618
+!MESSAGE Timeout while checking Copilot status
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:09:28.507
+!MESSAGE [C4E] Preconditions Checks(status: ok, results: [Result(
+type: chat_enabled,
+ status: ok,
+ details: [
+
+])])
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-01-20 13:09:32.426
+!MESSAGE [C4E] Conversation persistence: E:/eclipse-workspace/.metadata/.plugins/com.genuitec.copilot4eclipse/chatdata
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-01-20 13:09:34.830
+!MESSAGE [C4E] Internal server started: true uri: http://localhost:55312/chat
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-01-20 13:09:39.052
+!MESSAGE [C4E] Workspace labels: java,maven,javascript
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-01-20 13:11:21.588
+!MESSAGE [C4E] Internal server stopped: Server@665dc56f{STOPPED}[10.0.20,sto=0]
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-01-20 13:11:21.594
+!MESSAGE [C4E] Internal server stopped: true
+!SESSION 2025-01-20 13:36:53.038 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-20 13:37:01.672
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-20 13:37:41.531
+!MESSAGE Logback config file: E:\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:37:56.704
+!MESSAGE [C4E] Copilot API proxy: native mode
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-01-20 13:37:57.667
+!MESSAGE [Chat} EdgeDataDir: E:\eclipse-workspace\.metadata\.plugins\com.genuitec.copilot4eclipse\edgedata
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-01-20 13:38:00.055
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\karti'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:38:00.144
+!MESSAGE Starting Copilot4Eclipse
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2025-01-20 13:38:05.220
+!MESSAGE Init failed - Copilot LS is not active
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2964)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:38:07.249
+!MESSAGE Starting Copilot4Eclipse
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2025-01-20 13:38:12.426
+!MESSAGE Init failed - Copilot LS is not active
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2964)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:38:14.445
+!MESSAGE Starting Copilot4Eclipse
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2025-01-20 13:38:20.843
+!MESSAGE Timeout while checking Copilot status
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:38:22.814
+!MESSAGE [C4E] Preconditions Checks(status: ok, results: [Result(
+type: chat_enabled,
+ status: ok,
+ details: [
+
+])])
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:38:23.477
+!MESSAGE [C4E] Preconditions Checks(status: ok, results: [Result(
+type: chat_enabled,
+ status: ok,
+ details: [
+
+])])
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2025-01-20 13:38:26.973
+!MESSAGE Timeout while checking Copilot status
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:38:37.797
+!MESSAGE [C4E] Preconditions Checks(status: ok, results: [Result(
+type: chat_enabled,
+ status: ok,
+ details: [
+
+])])
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-01-20 13:38:41.566
+!MESSAGE [C4E] Conversation persistence: E:/eclipse-workspace/.metadata/.plugins/com.genuitec.copilot4eclipse/chatdata
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-01-20 13:38:42.916
+!MESSAGE [C4E] Internal server started: true uri: http://localhost:56014/chat
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-01-20 13:38:46.929
+!MESSAGE [C4E] Workspace labels: java,maven,javascript
+
+!ENTRY org.eclipse.epp.mpc.ui 4 0 2025-01-20 13:40:18.417
+!MESSAGE Cannot open Eclipse Marketplace
+!STACK 1
+org.eclipse.core.runtime.CoreException: Cannot install remote marketplace locations: ExceptionInInitializerError
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.createConfiguration(AbstractMarketplaceWizardCommand.java:105)
+	at org.eclipse.epp.internal.mpc.ui.commands.MarketplaceWizardCommand.createConfiguration(MarketplaceWizardCommand.java:64)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.execute(AbstractMarketplaceWizardCommand.java:67)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:277)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:98)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:299)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:233)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:174)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:165)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:444)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:442)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:464)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+Caused by: java.lang.ExceptionInInitializerError
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.<clinit>(SSLConnectionSocketFactory.java:151)
+	at org.apache.http.client.fluent.Executor.<clinit>(Executor.java:78)
+	at org.eclipse.userstorage.oauth.OAuthCredentialsProvider.createExecutor(OAuthCredentialsProvider.java:73)
+	at org.eclipse.userstorage.oauth.OAuthCredentialsProvider.<init>(OAuthCredentialsProvider.java:30)
+	at org.eclipse.userstorage.oauth.OAuthCredentialsProvider.<init>(OAuthCredentialsProvider.java:68)
+	at org.eclipse.userstorage.oauth.EclipseOAuthCredentialsProvider.<init>(EclipseOAuthCredentialsProvider.java:138)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceStorageService.createStorage(MarketplaceStorageService.java:122)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceStorageService.getStorage(MarketplaceStorageService.java:145)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceStorageService.activate(MarketplaceStorageService.java:240)
+	at org.eclipse.epp.internal.mpc.core.ServiceLocator.registerStorageService(ServiceLocator.java:345)
+	at org.eclipse.epp.internal.mpc.core.ServiceLocator.registerFavoritesService(ServiceLocator.java:319)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultCatalogService.registerDynamicFavoritesService(DefaultCatalogService.java:81)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultCatalogService.registerDynamicFavoritesService(DefaultCatalogService.java:71)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultCatalogService.listCatalogs(DefaultCatalogService.java:56)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.lambda$0(AbstractMarketplaceWizardCommand.java:169)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: org.apache.commons.logging.LogConfigurationException: The chosen LogFactory implementation does not extend LogFactory. Please check your configuration. (Caused by java.lang.ClassCastException: The application has specified that a custom LogFactory implementation should be used but Class 'org.apache.commons.logging.impl.LogFactoryImpl' cannot be converted to 'org.apache.commons.logging.LogFactory'. The conflict is caused by the presence of multiple LogFactory classes in incompatible classloaders. Background can be found in http://commons.apache.org/logging/tech.html. If you have not explicitly specified a custom LogFactory then it is likely that the container has set one without your knowledge. In this case, consider using the commons-logging-adapters.jar file or specifying the standard LogFactory from the command line. Help can be found @http://commons.apache.org/logging/troubleshooting.html.)
+	at org.apache.commons.logging.LogFactory.createFactory(LogFactory.java:1154)
+	at org.apache.commons.logging.LogFactory$2.run(LogFactory.java:960)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319)
+	at org.apache.commons.logging.LogFactory.newFactory(LogFactory.java:957)
+	at org.apache.commons.logging.LogFactory.getFactory(LogFactory.java:624)
+	at org.apache.commons.logging.LogFactory.getLog(LogFactory.java:655)
+	at org.apache.http.conn.ssl.AbstractVerifier.<init>(AbstractVerifier.java:61)
+	at org.apache.http.conn.ssl.AllowAllHostnameVerifier.<init>(AllowAllHostnameVerifier.java:44)
+	at org.apache.http.conn.ssl.AllowAllHostnameVerifier.<clinit>(AllowAllHostnameVerifier.java:46)
+	... 16 more
+Caused by: java.lang.ClassCastException: The application has specified that a custom LogFactory implementation should be used but Class 'org.apache.commons.logging.impl.LogFactoryImpl' cannot be converted to 'org.apache.commons.logging.LogFactory'. The conflict is caused by the presence of multiple LogFactory classes in incompatible classloaders. Background can be found in http://commons.apache.org/logging/tech.html. If you have not explicitly specified a custom LogFactory then it is likely that the container has set one without your knowledge. In this case, consider using the commons-logging-adapters.jar file or specifying the standard LogFactory from the command line. Help can be found @http://commons.apache.org/logging/troubleshooting.html.
+	at org.apache.commons.logging.LogFactory.createFactory(LogFactory.java:1108)
+	... 24 more
+Contains: ExceptionInInitializerError
+java.lang.ExceptionInInitializerError
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.<clinit>(SSLConnectionSocketFactory.java:151)
+	at org.apache.http.client.fluent.Executor.<clinit>(Executor.java:78)
+	at org.eclipse.userstorage.oauth.OAuthCredentialsProvider.createExecutor(OAuthCredentialsProvider.java:73)
+	at org.eclipse.userstorage.oauth.OAuthCredentialsProvider.<init>(OAuthCredentialsProvider.java:30)
+	at org.eclipse.userstorage.oauth.OAuthCredentialsProvider.<init>(OAuthCredentialsProvider.java:68)
+	at org.eclipse.userstorage.oauth.EclipseOAuthCredentialsProvider.<init>(EclipseOAuthCredentialsProvider.java:138)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceStorageService.createStorage(MarketplaceStorageService.java:122)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceStorageService.getStorage(MarketplaceStorageService.java:145)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceStorageService.activate(MarketplaceStorageService.java:240)
+	at org.eclipse.epp.internal.mpc.core.ServiceLocator.registerStorageService(ServiceLocator.java:345)
+	at org.eclipse.epp.internal.mpc.core.ServiceLocator.registerFavoritesService(ServiceLocator.java:319)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultCatalogService.registerDynamicFavoritesService(DefaultCatalogService.java:81)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultCatalogService.registerDynamicFavoritesService(DefaultCatalogService.java:71)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultCatalogService.listCatalogs(DefaultCatalogService.java:56)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.lambda$0(AbstractMarketplaceWizardCommand.java:169)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: org.apache.commons.logging.LogConfigurationException: The chosen LogFactory implementation does not extend LogFactory. Please check your configuration. (Caused by java.lang.ClassCastException: The application has specified that a custom LogFactory implementation should be used but Class 'org.apache.commons.logging.impl.LogFactoryImpl' cannot be converted to 'org.apache.commons.logging.LogFactory'. The conflict is caused by the presence of multiple LogFactory classes in incompatible classloaders. Background can be found in http://commons.apache.org/logging/tech.html. If you have not explicitly specified a custom LogFactory then it is likely that the container has set one without your knowledge. In this case, consider using the commons-logging-adapters.jar file or specifying the standard LogFactory from the command line. Help can be found @http://commons.apache.org/logging/troubleshooting.html.)
+	at org.apache.commons.logging.LogFactory.createFactory(LogFactory.java:1154)
+	at org.apache.commons.logging.LogFactory$2.run(LogFactory.java:960)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319)
+	at org.apache.commons.logging.LogFactory.newFactory(LogFactory.java:957)
+	at org.apache.commons.logging.LogFactory.getFactory(LogFactory.java:624)
+	at org.apache.commons.logging.LogFactory.getLog(LogFactory.java:655)
+	at org.apache.http.conn.ssl.AbstractVerifier.<init>(AbstractVerifier.java:61)
+	at org.apache.http.conn.ssl.AllowAllHostnameVerifier.<init>(AllowAllHostnameVerifier.java:44)
+	at org.apache.http.conn.ssl.AllowAllHostnameVerifier.<clinit>(AllowAllHostnameVerifier.java:46)
+	... 16 more
+Caused by: java.lang.ClassCastException: The application has specified that a custom LogFactory implementation should be used but Class 'org.apache.commons.logging.impl.LogFactoryImpl' cannot be converted to 'org.apache.commons.logging.LogFactory'. The conflict is caused by the presence of multiple LogFactory classes in incompatible classloaders. Background can be found in http://commons.apache.org/logging/tech.html. If you have not explicitly specified a custom LogFactory then it is likely that the container has set one without your knowledge. In this case, consider using the commons-logging-adapters.jar file or specifying the standard LogFactory from the command line. Help can be found @http://commons.apache.org/logging/troubleshooting.html.
+	at org.apache.commons.logging.LogFactory.createFactory(LogFactory.java:1108)
+	... 24 more
+!SUBENTRY 1 org.eclipse.epp.mpc.core 4 0 2025-01-20 13:40:18.419
+!MESSAGE Cannot install remote marketplace locations: ExceptionInInitializerError
+!STACK 0
+java.lang.ExceptionInInitializerError
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.<clinit>(SSLConnectionSocketFactory.java:151)
+	at org.apache.http.client.fluent.Executor.<clinit>(Executor.java:78)
+	at org.eclipse.userstorage.oauth.OAuthCredentialsProvider.createExecutor(OAuthCredentialsProvider.java:73)
+	at org.eclipse.userstorage.oauth.OAuthCredentialsProvider.<init>(OAuthCredentialsProvider.java:30)
+	at org.eclipse.userstorage.oauth.OAuthCredentialsProvider.<init>(OAuthCredentialsProvider.java:68)
+	at org.eclipse.userstorage.oauth.EclipseOAuthCredentialsProvider.<init>(EclipseOAuthCredentialsProvider.java:138)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceStorageService.createStorage(MarketplaceStorageService.java:122)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceStorageService.getStorage(MarketplaceStorageService.java:145)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceStorageService.activate(MarketplaceStorageService.java:240)
+	at org.eclipse.epp.internal.mpc.core.ServiceLocator.registerStorageService(ServiceLocator.java:345)
+	at org.eclipse.epp.internal.mpc.core.ServiceLocator.registerFavoritesService(ServiceLocator.java:319)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultCatalogService.registerDynamicFavoritesService(DefaultCatalogService.java:81)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultCatalogService.registerDynamicFavoritesService(DefaultCatalogService.java:71)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultCatalogService.listCatalogs(DefaultCatalogService.java:56)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.lambda$0(AbstractMarketplaceWizardCommand.java:169)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: org.apache.commons.logging.LogConfigurationException: The chosen LogFactory implementation does not extend LogFactory. Please check your configuration. (Caused by java.lang.ClassCastException: The application has specified that a custom LogFactory implementation should be used but Class 'org.apache.commons.logging.impl.LogFactoryImpl' cannot be converted to 'org.apache.commons.logging.LogFactory'. The conflict is caused by the presence of multiple LogFactory classes in incompatible classloaders. Background can be found in http://commons.apache.org/logging/tech.html. If you have not explicitly specified a custom LogFactory then it is likely that the container has set one without your knowledge. In this case, consider using the commons-logging-adapters.jar file or specifying the standard LogFactory from the command line. Help can be found @http://commons.apache.org/logging/troubleshooting.html.)
+	at org.apache.commons.logging.LogFactory.createFactory(LogFactory.java:1154)
+	at org.apache.commons.logging.LogFactory$2.run(LogFactory.java:960)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319)
+	at org.apache.commons.logging.LogFactory.newFactory(LogFactory.java:957)
+	at org.apache.commons.logging.LogFactory.getFactory(LogFactory.java:624)
+	at org.apache.commons.logging.LogFactory.getLog(LogFactory.java:655)
+	at org.apache.http.conn.ssl.AbstractVerifier.<init>(AbstractVerifier.java:61)
+	at org.apache.http.conn.ssl.AllowAllHostnameVerifier.<init>(AllowAllHostnameVerifier.java:44)
+	at org.apache.http.conn.ssl.AllowAllHostnameVerifier.<clinit>(AllowAllHostnameVerifier.java:46)
+	... 16 more
+Caused by: java.lang.ClassCastException: The application has specified that a custom LogFactory implementation should be used but Class 'org.apache.commons.logging.impl.LogFactoryImpl' cannot be converted to 'org.apache.commons.logging.LogFactory'. The conflict is caused by the presence of multiple LogFactory classes in incompatible classloaders. Background can be found in http://commons.apache.org/logging/tech.html. If you have not explicitly specified a custom LogFactory then it is likely that the container has set one without your knowledge. In this case, consider using the commons-logging-adapters.jar file or specifying the standard LogFactory from the command line. Help can be found @http://commons.apache.org/logging/troubleshooting.html.
+	at org.apache.commons.logging.LogFactory.createFactory(LogFactory.java:1108)
+	... 24 more
+!SUBENTRY 2 org.eclipse.epp.mpc.core 4 0 2025-01-20 13:40:18.419
+!MESSAGE ExceptionInInitializerError
+!STACK 0
+java.lang.ExceptionInInitializerError
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.<clinit>(SSLConnectionSocketFactory.java:151)
+	at org.apache.http.client.fluent.Executor.<clinit>(Executor.java:78)
+	at org.eclipse.userstorage.oauth.OAuthCredentialsProvider.createExecutor(OAuthCredentialsProvider.java:73)
+	at org.eclipse.userstorage.oauth.OAuthCredentialsProvider.<init>(OAuthCredentialsProvider.java:30)
+	at org.eclipse.userstorage.oauth.OAuthCredentialsProvider.<init>(OAuthCredentialsProvider.java:68)
+	at org.eclipse.userstorage.oauth.EclipseOAuthCredentialsProvider.<init>(EclipseOAuthCredentialsProvider.java:138)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceStorageService.createStorage(MarketplaceStorageService.java:122)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceStorageService.getStorage(MarketplaceStorageService.java:145)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceStorageService.activate(MarketplaceStorageService.java:240)
+	at org.eclipse.epp.internal.mpc.core.ServiceLocator.registerStorageService(ServiceLocator.java:345)
+	at org.eclipse.epp.internal.mpc.core.ServiceLocator.registerFavoritesService(ServiceLocator.java:319)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultCatalogService.registerDynamicFavoritesService(DefaultCatalogService.java:81)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultCatalogService.registerDynamicFavoritesService(DefaultCatalogService.java:71)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultCatalogService.listCatalogs(DefaultCatalogService.java:56)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.lambda$0(AbstractMarketplaceWizardCommand.java:169)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: org.apache.commons.logging.LogConfigurationException: The chosen LogFactory implementation does not extend LogFactory. Please check your configuration. (Caused by java.lang.ClassCastException: The application has specified that a custom LogFactory implementation should be used but Class 'org.apache.commons.logging.impl.LogFactoryImpl' cannot be converted to 'org.apache.commons.logging.LogFactory'. The conflict is caused by the presence of multiple LogFactory classes in incompatible classloaders. Background can be found in http://commons.apache.org/logging/tech.html. If you have not explicitly specified a custom LogFactory then it is likely that the container has set one without your knowledge. In this case, consider using the commons-logging-adapters.jar file or specifying the standard LogFactory from the command line. Help can be found @http://commons.apache.org/logging/troubleshooting.html.)
+	at org.apache.commons.logging.LogFactory.createFactory(LogFactory.java:1154)
+	at org.apache.commons.logging.LogFactory$2.run(LogFactory.java:960)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319)
+	at org.apache.commons.logging.LogFactory.newFactory(LogFactory.java:957)
+	at org.apache.commons.logging.LogFactory.getFactory(LogFactory.java:624)
+	at org.apache.commons.logging.LogFactory.getLog(LogFactory.java:655)
+	at org.apache.http.conn.ssl.AbstractVerifier.<init>(AbstractVerifier.java:61)
+	at org.apache.http.conn.ssl.AllowAllHostnameVerifier.<init>(AllowAllHostnameVerifier.java:44)
+	at org.apache.http.conn.ssl.AllowAllHostnameVerifier.<clinit>(AllowAllHostnameVerifier.java:46)
+	... 16 more
+Caused by: java.lang.ClassCastException: The application has specified that a custom LogFactory implementation should be used but Class 'org.apache.commons.logging.impl.LogFactoryImpl' cannot be converted to 'org.apache.commons.logging.LogFactory'. The conflict is caused by the presence of multiple LogFactory classes in incompatible classloaders. Background can be found in http://commons.apache.org/logging/tech.html. If you have not explicitly specified a custom LogFactory then it is likely that the container has set one without your knowledge. In this case, consider using the commons-logging-adapters.jar file or specifying the standard LogFactory from the command line. Help can be found @http://commons.apache.org/logging/troubleshooting.html.
+	at org.apache.commons.logging.LogFactory.createFactory(LogFactory.java:1108)
+	... 24 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-20 13:48:34.446
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-20 13:48:34.473
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-20 13:48:38.560
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-20 13:48:38.577
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-20 13:48:40.618
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-20 13:48:40.626
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-20 13:48:42.809
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-20 13:48:42.829
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-20 13:48:45.276
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-20 13:48:45.288
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-20 13:48:47.018
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-20 13:48:47.034
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2025-01-20 13:48:52.712
+!MESSAGE Timeout while checking Copilot status
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-01-20 13:48:53.202
+!MESSAGE [C4E] Preconditions Checks(status: ok, results: [Result(
+type: chat_enabled,
+ status: ok,
+ details: [
+
+])])
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2025-01-20 15:06:15.720
+!MESSAGE Timeout while checking Copilot status
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-01-20 15:06:35.978
+!MESSAGE [C4E] Internal server stopped: Server@bc071b6{STOPPED}[10.0.20,sto=0]
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-01-20 15:06:35.984
+!MESSAGE [C4E] Internal server stopped: true
