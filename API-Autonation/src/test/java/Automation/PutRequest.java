@@ -7,6 +7,7 @@ import io.restassured.RestAssured; // Imports the RestAssured class from the Res
 
 public class PutRequest { // Declares a public class named PutRequest
 
+    @SuppressWarnings("unchecked")
     @Test // Marks the following method as a test method
     public void test01() { // Declares a public method named test01
         JSONObject request = new JSONObject(); // Creates a new JSONObject instance

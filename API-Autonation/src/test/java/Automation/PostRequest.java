@@ -6,6 +6,7 @@ import org.testng.annotations.Test; // Imports the Test annotation from TestNG
 import io.restassured.RestAssured; // Imports the RestAssured class from the RestAssured library
 
 public class PostRequest { // Declares a public class named PostRequest
+    @SuppressWarnings("unchecked")
     @Test // Marks the following method as a test method
     public void test01() { // Declares a public method named test01
         JSONObject request = new JSONObject(); // Creates a new JSONObject instance
